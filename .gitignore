@@ -1,0 +1,20 @@
+# Pastas de build
+bin/
+obj/
+.vs/
+
+# Arquivos de usuário
+*.user
+*.suo
+
+# Arquivos temporários
+*.cache
+*.log
+
+# Dados locais (opcional - se não quiser compartilhar seus dados de teste)
+estoque.json
+historico.json
+
+# NuGet
+packages/
+*.nupkg

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorEstoques", "GerenciadorEstoques.csproj", "{595967AB-7E9C-41B7-ADC6-9E8E443C68EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		EntradaSaidaRapidaDialog.xaml = EntradaSaidaRapidaDialog.xaml
+		EntradaSaidaRapidaDialog.xaml.cs = EntradaSaidaRapidaDialog.xaml.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{595967AB-7E9C-41B7-ADC6-9E8E443C68EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{595967AB-7E9C-41B7-ADC6-9E8E443C68EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{595967AB-7E9C-41B7-ADC6-9E8E443C68EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{595967AB-7E9C-41B7-ADC6-9E8E443C68EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {170166BB-FD70-45B2-B1C2-C64D976147A9}
+	EndGlobalSection
+EndGlobal
