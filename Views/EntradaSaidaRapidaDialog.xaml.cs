@@ -1,9 +1,11 @@
-﻿using System;
+﻿using GerenciadorEstoques.Models;
+using System;
 using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
+using GerenciadorEstoques.Models;
 
 namespace GerenciadorEstoques
 {

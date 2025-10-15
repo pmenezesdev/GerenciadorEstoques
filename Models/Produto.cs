@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace GerenciadorEstoques
+namespace GerenciadorEstoques.Models
 {
     public class Produto : INotifyPropertyChanged
     {

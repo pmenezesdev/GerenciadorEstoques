@@ -11,7 +11,9 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
+using GerenciadorEstoques.Models;
 using Microsoft.Win32;
+using GerenciadorEstoques.Models;
 
 namespace GerenciadorEstoques
 {
@@ -829,13 +831,4 @@ namespace GerenciadorEstoques
         }
     }
 
-    // Classe para movimentação de estoque
-    public class MovimentacaoEstoque
-    {
-        public DateTime Data { get; set; }
-        public string CodigoProduto { get; set; }
-        public string Tipo { get; set; }
-        public int Quantidade { get; set; }
-        public int QuantidadeApos { get; set; }
-    }
 }
