@@ -90,16 +90,22 @@ git clone https://github.com/pmenezesdev/GerenciadorEstoques.git
 ## 📊 Estrutura do Projeto
 
 ```
-GerenciadorEstoques/
-├── MainWindow.xaml                    # Interface principal
-├── MainWindow.xaml.cs                 # Lógica da tela principal
-├── Produto.cs                         # Modelo de dados com propriedades calculadas
-├── EntradaSaidaRapidaDialog.xaml     # Interface de movimentação de estoque
-├── EntradaSaidaRapidaDialog.xaml.cs  # Lógica de entrada/saída
-├── App.xaml                           # Configuração da aplicação
-├── App.xaml.cs                        # Inicialização
-├── estoque.json                       # Dados dos produtos (gerado automaticamente)
-└── historico.json                     # Histórico de movimentações (gerado automaticamente)
+GerenciadorEstoques
+ ┣ 📂 Models
+ ┃ ┣ 📄 MovimentacaoEstoque.cs
+ ┃ ┗ 📄 Produto.cs
+ ┣ 📂 Views
+ ┃ ┣ 📄 EntradaSaidaRapidaDialog.xaml
+ ┃ ┣ 📄 EntradaSaidaRapidaDialog.xaml.cs
+ ┃ ┣ 📄 MainWindow.xaml
+ ┃ ┗ 📄 MainWindow.xaml.cs
+ ┣ 📂 Dependencies
+ ┣ 📄 .gitattributes
+ ┣ 📄 .gitignore
+ ┣ 📄 App.xaml
+ ┣ 📄 App.xaml.cs
+ ┣ 📄 AssemblyInfo.cs
+ ┗ 📄 README.md
 ```
 
 ## 🎯 Roadmap - Melhorias Futuras
